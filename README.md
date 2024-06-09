@@ -18,17 +18,54 @@ You can start editing the page by modifying `app/page.js`. The page auto-updates
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+# Ticketing App
 
-To learn more about Next.js, take a look at the following resources:
+A full-stack ticketing application built with Next.js, Node.js, Express, and MongoDB. This application allows users to create, update, and delete tickets, and manage their statuses and priorities.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Features
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- User authentication
+- Create, update, and delete tickets
+- Track progress and status of tickets
+- Responsive design
+- Role-based access control (future feature)
+- Notification system (future feature)
 
-## Deploy on Vercel
+## Tech Stack
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Frontend**: Next.js, React, Tailwind CSS
+- **Backend**: Node.js, Express
+- **Database**: MongoDB, Mongoose
+- **Authentication**: JWT, bcrypt
+- **Version Control**: Git, GitHub
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Getting Started
+
+### Prerequisites
+
+- Node.js
+- npm or yarn
+- MongoDB
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/Gravqc/Ticketing-App.git
+   cd Ticketing-App
+   ```
+
+2. Install dependencies for both frontend and backend
+   Front-End icons/styling
+
+   - npm install @fortawesome/free-solid-svg-icons
+   - npm install @fortawesome/react-fontawesome
+
+   Back-end Db
+
+   - npm install mongodb mongoose
+
+3. Create your .env.local file with connection string to DB.
+
+4. npm run dev
