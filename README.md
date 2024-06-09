@@ -66,6 +66,19 @@ A full-stack ticketing application built with Next.js, Node.js, Express, and Mon
 
    - npm install mongodb mongoose
 
+
 3. Create your .env.local file with connection string to DB.
 
 4. npm run dev
+
+
+## Preview
+### Dashboard:
+![image](https://github.com/Gravqc/Ticketing-App/assets/90492971/eab35006-243c-4f37-8c74-88a730f9f1be)
+
+### Update Ticket:
+![image](https://github.com/Gravqc/Ticketing-App/assets/90492971/a1b7babb-5644-463e-a55b-d20c66aea4da)
+
+### Create new Ticket:
+![image](https://github.com/Gravqc/Ticketing-App/assets/90492971/44d2a869-1eb4-48c9-8f60-716049f89d6e)
+
